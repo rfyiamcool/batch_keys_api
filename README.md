@@ -1,6 +1,6 @@
 ##simple id_rsa.pub batch mamage and web api
 
-###原理很简单，就是提供一个master端来远程批量管理所有用户的key及其他集群上的key，支持web api。
+####原理很简单，就是提供一个master端来远程批量管理所有用户的key及其他集群上的key，支持web api。
 用到的模块
 * bottle
 * gevent
