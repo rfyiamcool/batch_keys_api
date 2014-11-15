@@ -29,3 +29,7 @@ curl -XDELETE -H "Content-Type: application/json" -d '{"user":"root","host":"106
 
 TODO:
 * api写的有些简陋,代码不优美，安全方面也没有做
+* 加入leveldb数据库
+* 加入页面
+
+
