@@ -18,11 +18,13 @@ In [3]: commands.post('root','106.186.21.211','22',['/opt/lisan.pub','/opt/zhili
 In [4]: commands.delete('root','106.186.21.211','22',['/opt/lisan.pub',0])
 ```
 #### web api
+```
 curl -XGET http://127.0.0.1:8080/get?user=root&host=106.186.21.212&port=22
 
 curl -XPOST -H "Content-Type: application/json" -d '{"user":"root","host":"106.186.21.211","port":"22","keylist":"['/ops/lisan.pub']"}'  http://127.0.0.1:8080/add
 
 curl -XDELETE -H "Content-Type: application/json" -d '{"user":"root","host":"106.186.21.211","port":"22","keyid":"['/ops/lisan.pub']"}'  http://127.0.0.1:8080/delete
+```
 
 
 TODO:
