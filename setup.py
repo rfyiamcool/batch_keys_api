@@ -2,15 +2,14 @@ from setuptools import setup
 
 setup(
         name='ssh_manage_api',
-        version='1.0',
+        version='2.2',
         description='simple batch manage ssh_keys and support web api',
-        author='fengyun.rui',
+        long_description=open('README.md').read(),
+        author='ruifengyun',
         author_email='rfyiamcool@163.com',
         url='https://github.com/rfyiamcool',
         packages=['ssh_manage_api'],
         install_requires=['sh'],
-        license='BSD',
-        platforms='mac \ linux',
         classifiers=[
                 'Operating System :: Unix',
                 'Programming Language :: Python :: 2',
